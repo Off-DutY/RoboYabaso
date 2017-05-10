@@ -496,7 +496,7 @@ function parseInput(roomMID,rplyToken, inputStr) {
 	    return '必須是群組才能開房間唷 <3 ';
 	}
     }
-    else if(trigger == 'leaveroom' || TRPG.hasOwnProperty(event.source.groupId)){
+    else if((trigger == 'leaveroom' || event.type == 'leave') && TRPG.hasOwnProperty(event.source.groupId)){
     	eval('delete TRPG.'+event.source.groupId);
 	console.log('room existance: '+TRPG.hasOwnProperty(event.source.groupId));
 	return '已經刪除房間資訊了喵~';
@@ -1180,4 +1180,4 @@ function Cat() {
 喵喵?', '喵喵喵', '喵?', '喵~', '喵喵喵喵!', '喵<3', '喵喵.....', '喵嗚~', '喵喵! 喵喵喵!', '喵喵', '喵', '\
 喵喵!', '喵喵....喵?', '喵!!!', '喵~喵~', '衝三小', '87玩夠沒', '生ㄎㄎㄎㄎㄎㄎ'];
     return rplyArr[Math.floor((Math.random() * (rplyArr.length)) + 0)];
-}
+};
