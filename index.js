@@ -174,8 +174,8 @@ function replyMsgToLine(outType, rplyToken, rplyVal) {
 		      "actions": [
 			  {
 			    "type": "message",
-			    "label": BStyleFlagSCRIPTS(),
-			    "text": "zz"
+			    "label": "test 1d6",
+			    "text": RollDice(id6)
 			  },
 			  {
 			    "type": "message",
