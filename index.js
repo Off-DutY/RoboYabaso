@@ -8,8 +8,6 @@ var jsonParser = bodyParser.json();
 var outType = 'text';
 var event = '';
 var v_path = '/v2/bot/message/reply';
-var abc = 70;
-
 
 // 房間入口
 // key:value
@@ -149,7 +147,7 @@ function replyMsgToLine(outType, rplyToken, rplyVal) {
 			  {
 			    "type": "message",
 			    "label": "調查: 60",
-			    "text": "ccb " + rplyVal + " 調查"
+			    "text": "ccb 60 調查"
 			  },
 			  {
 			    "type": "message",
@@ -566,8 +564,7 @@ function parseInput(roomMID,rplyToken, inputStr) {
 	       userToRoom[event.source.userId].pictureUrl + '\n'+
 	       userToRoom[event.source.userId].statusMessage;
     }else if(trigger == 'template'){
-	    abc=abc-1;
-	replyMsgToLine('template', rplyToken,abc);    
+	replyMsgToLine('template', rplyToken,'');    
     }
 }
 
