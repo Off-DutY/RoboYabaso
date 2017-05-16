@@ -174,8 +174,8 @@ function replyMsgToLine(outType, rplyToken, rplyVal) {
 		      "actions": [
 			  {
 			    "type": "message",
-			    "label": "test 1d6",
-			    "text": RollDice(id6)
+			    "label": "調查",
+			    "text": coc6('80', '調查')
 			  },
 			  {
 			    "type": "message",
