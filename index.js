@@ -174,8 +174,8 @@ function replyMsgToLine(outType, rplyToken, rplyVal) {
 		      "actions": [
 			  {
 			    "type": "message",
-			    "label": "調查",
-			    "text": coc6('80', '調查')
+			    "label": "調查: 60",
+			    "text": "ccb 60 調查"
 			  },
 			  {
 			    "type": "message",
