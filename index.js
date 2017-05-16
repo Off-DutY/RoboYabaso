@@ -148,7 +148,7 @@ function replyMsgToLine(outType, rplyToken, rplyVal) {
 			  {
 			    "type": "message",
 			    "label": "test 1d6",
-			    "text": "zz"
+			    "text": RollDice('1d6')
 			  },
 			  {
 			    "type": "message",
