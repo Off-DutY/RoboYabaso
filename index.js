@@ -216,7 +216,7 @@ function setOptions() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer fHACwQBpF8Jz2Tvr11NcdBkBAPLftsw+/Nym37Lzux87Sim/mjlBXZ+Uox3wdTMn8unRALSm3SHP3TbjWd+aCFsFioFGkhM4yvzgQnD6fBsFd0s7ANMzGyxhqjRBS549Jw9FUGl5UJVHralGlzbGLAdB04t89/1O/w1cDnyilFU='
+            'Authorization': 'Bearer NehLVvCofvY5tYr0O4Yl4WS8ZFw1LaCAWJPaCSZEh2Wl4FhusH4t19/ftO4XV9FLzBK8oXJ/wC0207KUQSTObQznYsqGAAI6q0PNHyPrjF+7WtBiHjL/c0qkAkHkgqi5qQ2Gp7DaTjDKx/X8WB0zDgdB04t89/1O/w1cDnyilFU='
         }
     }
     return options;
@@ -231,7 +231,7 @@ function getUserProfile(p_MID) {
         path: v_path,
         method: 'GET',
         headers: {
-            'Authorization': 'Bearer fHACwQBpF8Jz2Tvr11NcdBkBAPLftsw+/Nym37Lzux87Sim/mjlBXZ+Uox3wdTMn8unRALSm3SHP3TbjWd+aCFsFioFGkhM4yvzgQnD6fBsFd0s7ANMzGyxhqjRBS549Jw9FUGl5UJVHralGlzbGLAdB04t89/1O/w1cDnyilFU='
+            'Authorization': 'Bearer NehLVvCofvY5tYr0O4Yl4WS8ZFw1LaCAWJPaCSZEh2Wl4FhusH4t19/ftO4XV9FLzBK8oXJ/wC0207KUQSTObQznYsqGAAI6q0PNHyPrjF+7WtBiHjL/c0qkAkHkgqi5qQ2Gp7DaTjDKx/X8WB0zDgdB04t89/1O/w1cDnyilFU='
         }
     };
     v_path = null;
