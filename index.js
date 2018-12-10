@@ -274,6 +274,12 @@ function parseInput(roomMID, rplyToken, inputStr) {
 	    
     } else if (trigger.match(/喵/) != null) {
         return Meow();
+    } else if (trigger.match(/倒數/) != null) {
+      let secondDate = new Date("2019/01/25"),
+      firstDate = new Date(),
+      timeDifference = Math.abs(secondDate.getTime() - firstDate.getTime());
+      let differentDays = Math.ceil(timeDifference / (1000 * 3600 * 24));
+      return "還有" + (differentDays-1) + "天";
     }
 }
 
